@@ -1,9 +1,9 @@
-[build-system]
+﻿[build-system]
 requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lpfn"
+name = "liepfn"
 dynamic = ["version"]
 description = "Lie-Product Function Networks for geometry-preserving matrix Lie-group learning"
 readme = "README.md"
@@ -11,9 +11,9 @@ requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE"]
 authors = [
-  {name = "Andrés Ríos"},
-  {name = "Sandra Juárez"},
-  {name = "A. Méndez-Vázquez"},
+  {name = "AndrÃ©s RÃ­os"},
+  {name = "Sandra JuÃ¡rez"},
+  {name = "A. MÃ©ndez-VÃ¡zquez"},
 ]
 keywords = [
   "lie-groups",
@@ -59,3 +59,4 @@ addopts = "-ra"
 [tool.coverage.run]
 source = ["lpfn"]
 branch = true
+
