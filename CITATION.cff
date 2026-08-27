@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use LPFN in research, please cite this software and the associated Lie-Product Function Networks manuscript."
+title: "LPFN: Lie-Product Function Networks"
+type: software
+authors:
+  - family-names: "Ríos"
+    given-names: "Andrés"
+  - family-names: "Juárez"
+    given-names: "Sandra"
+  - family-names: "Méndez-Vázquez"
+    given-names: "A."
+version: 0.1.0
+date-released: 2026-08-23
+license: MIT
+keywords:
+  - Lie groups
+  - geometric deep learning
+  - unitary learning
+  - quantum computing
+  - PyTorch

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.whl
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Research outputs
+results/
+checkpoints/
+*.pt
+*.pth
+
+# Local benchmark artifacts
+candidate_checkpoints/
+candidate_histories/
