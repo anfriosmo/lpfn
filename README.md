@@ -1,4 +1,4 @@
-# LPFN
+﻿# LPFN
 
 **Lie-Product Function Networks for geometry-preserving matrix Lie-group learning.**
 
@@ -26,7 +26,7 @@ The matrix output stays on the target group by construction.
 ## Install
 
 ```bash
-pip install lpfn
+pip install liepfn
 ```
 
 Development install:
@@ -70,18 +70,18 @@ change the scalar model.
 
 ## Included control models
 
-- `DirectControls` — exact/reference controls.
-- `ChebyshevControls` — total-degree multivariate Chebyshev expansions.
-- `FourierControls` — real multivariate trigonometric bases with mixed modes.
-- `SplineControls` — tensor-product open-uniform B-splines.
-- `MLPControls` — generic neural controls.
-- `KANControls` — experimental KAN-style B-spline edge controls.
+- `DirectControls` â€” exact/reference controls.
+- `ChebyshevControls` â€” total-degree multivariate Chebyshev expansions.
+- `FourierControls` â€” real multivariate trigonometric bases with mixed modes.
+- `SplineControls` â€” tensor-product open-uniform B-splines.
+- `MLPControls` â€” generic neural controls.
+- `KANControls` â€” experimental KAN-style B-spline edge controls.
 
 ## Execution engines
 
-- `TorchMatrixEngine` — differentiable reference engine based on matrix
+- `TorchMatrixEngine` â€” differentiable reference engine based on matrix
   exponentials.
-- `PauliMatrixEngine` — optimized Pauli path using
+- `PauliMatrixEngine` â€” optimized Pauli path using
   `cos(theta) I - i sin(theta) P`.
 
 ## What is tested
@@ -103,13 +103,13 @@ The test suite covers:
 
 The source repository includes:
 
-- `docs/QUICKSTART.md` — quick start;
-- `docs/PUBLIC_API.md` — supported research API;
-- `docs/CONVENTIONS.md` — mathematical conventions and ordering;
-- `docs/REPRODUCIBILITY.md` — benchmark/reproducibility protocol;
-- `docs/KAN_CONTROLS.md` — experimental KAN controls;
-- `CONTRIBUTING.md` — development guidance;
-- `CHANGELOG.md` — release history.
+- `docs/QUICKSTART.md` â€” quick start;
+- `docs/PUBLIC_API.md` â€” supported research API;
+- `docs/CONVENTIONS.md` â€” mathematical conventions and ordering;
+- `docs/REPRODUCIBILITY.md` â€” benchmark/reproducibility protocol;
+- `docs/KAN_CONTROLS.md` â€” experimental KAN controls;
+- `CONTRIBUTING.md` â€” development guidance;
+- `CHANGELOG.md` â€” release history.
 
 ## Research benchmarks
 
@@ -127,3 +127,4 @@ machine-readable software citation is provided in `CITATION.cff`.
 ## License
 
 LPFN is released under the MIT License. See `LICENSE`.
+
